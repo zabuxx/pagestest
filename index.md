@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages 
+## Welcome to GitHub Page
 
 <ul>
 {% for line in site.data.basetest1 %}
