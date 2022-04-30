@@ -5,5 +5,5 @@
   <li>
     {{line.title}}
   </li>
- {% endfor} 
+ {% endfor %} 
 </ul>
