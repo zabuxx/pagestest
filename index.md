@@ -8,6 +8,17 @@
 
 
 
+<div class="grid">
+  {% for line in site.data.basetest1 %}
+     <div class="col-md-4 col-sm-6 portfolio-item {{ line.title }}">
+        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+          {{ line.tldr }}
+        </a>
+     </div>
+  {% endfor %}
+</div>
+
+
 <ul>
 {% for line in site.data.basetest1 %}
   <li>
